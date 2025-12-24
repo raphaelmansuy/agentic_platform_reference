@@ -20,11 +20,11 @@ const config: Config = {
   
   // Set the /<baseUrl>/ pathname under which your site is served
   // For GitHub pages deployment, it is often '/<projectName>/'
-  baseUrl: '/the_agentic_platform/',
+  baseUrl: '/agentic_platform_reference/',
 
   // GitHub pages deployment config.
   organizationName: 'raphaelmansuy', // Your GitHub org/user name
-  projectName: 'the_agentic_platform', // Your repo name
+  projectName: 'agentic_platform_reference', // Your repo name
   deploymentBranch: 'gh-pages',
   
   // Trailing slash configuration for GitHub Pages
