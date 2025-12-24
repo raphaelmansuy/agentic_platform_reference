@@ -6,7 +6,7 @@ import type * as Preset from '@docusaurus/preset-classic';
 
 const config: Config = {
   title: 'Agentic Platform',
-  tagline: 'The next generation AI agent platform',
+  tagline: 'Reference Architecture for Production-Ready AI Agents',
   favicon: 'img/favicon.ico',
 
   // Future flags, see https://docusaurus.io/docs/api/docusaurus-config#future
@@ -251,15 +251,27 @@ const config: Config = {
       },
       links: [
         {
-          title: 'Documentation',
+          title: 'Reference Architecture',
           items: [
             {
-              label: 'Getting Started',
-              to: '/docs/intro',
+              label: 'Introduction',
+              to: '/docs/',
             },
             {
-              label: 'Guides',
-              to: '/docs/category/guides',
+              label: 'Core Concepts',
+              to: '/docs/category/core-concepts',
+            },
+            {
+              label: 'The Eight Needs',
+              to: '/docs/category/the-eight-needs',
+            },
+            {
+              label: 'Architecture',
+              to: '/docs/category/architecture',
+            },
+            {
+              label: 'Technology Landscape',
+              to: '/docs/category/technology-landscape',
             },
           ],
         },

@@ -21,7 +21,7 @@ function HomepageHeader() {
           <div className={styles.buttons}>
             <Link
               className="button button--primary button--lg"
-              to="/docs/intro">
+              to="/docs/">
               Get Started
             </Link>
             <Link
@@ -42,16 +42,16 @@ function CallToAction() {
       <div className="container">
         <div className={styles.ctaContent}>
           <Heading as="h2" className={styles.ctaTitle}>
-            Ready to get started?
+            Explore the Reference Architecture
           </Heading>
           <p className={styles.ctaSubtitle}>
-            Start building your documentation site in minutes.
+            A needs-driven approach to building production-ready AI agent infrastructure.
           </p>
           <div className={styles.ctaButtons}>
             <Link
               className="button button--primary button--lg"
-              to="/docs/intro">
-              Read the Docs
+              to="/docs/">
+              Read the Architecture
             </Link>
           </div>
         </div>
@@ -64,8 +64,8 @@ export default function Home(): ReactNode {
   const {siteConfig} = useDocusaurusContext();
   return (
     <Layout
-      title={`Welcome to ${siteConfig.title}`}
-      description="A modern documentation template powered by Docusaurus. Build beautiful, fast, and accessible documentation sites.">
+      title={`${siteConfig.title} Reference Architecture`}
+      description="A needs-driven reference architecture for building production-ready autonomous AI agent infrastructure. Explore the eight fundamental challenges and seven-layer architecture.">
       <HomepageHeader />
       <main>
         <HomepageFeatures />

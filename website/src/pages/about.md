@@ -1,45 +1,44 @@
 ---
 title: About
-description: Learn more about our project and team
+description: Learn more about the Agentic Platform Reference Architecture
 ---
 
 # About
 
-Welcome to the **Agentic Platform** - the next generation of AI agent orchestration.
+Welcome to the **Agentic Platform Reference Architecture** - a comprehensive guide for building production-ready AI agent infrastructure.
 
-## Our Vision
+## What Is This?
 
-We believe that the future of software is agentic. Our mission is to provide the most robust, scalable, and elegant platform for building and deploying autonomous AI agents that can solve complex problems and automate workflows.
+This is a **reference architecture**, not a product. It provides a structured approach for organizations evaluating or building infrastructure to support autonomous AI agents at scale.
 
-## Why Agentic Platform?
+### What It Provides
 
-The Agentic Platform is designed for developers who need more than just a simple chatbot. It provides:
+- 🧠 **Conceptual Framework** - A structured way to think about agentic infrastructure
+- 📋 **Pattern Language** - Common patterns and solutions for production agent deployments
+- 🏗️ **Eight Fundamental Needs** - A needs-driven taxonomy for organizing platform capabilities
+- 🚀 **Implementation Guidance** - Phased approaches for building platform capabilities
 
-- 🧠 **Advanced Orchestration** - Manage complex multi-agent workflows with ease.
-- 🛠️ **Tool Integration** - Seamlessly connect agents to any API or database.
-- 📊 **Observability** - Real-time monitoring and debugging of agent sessions.
-- 🔒 **Enterprise Ready** - Built with security and compliance in mind.
+## Who Is This For?
 
-## The Team
+This reference architecture is designed for:
 
-We are a group of AI researchers and software engineers passionate about the potential of autonomous agents. Our goal is to democratize access to advanced agentic technologies.
+- **Architects** designing AI infrastructure
+- **Engineering Leaders** evaluating platform strategies
+- **Technical Decision-Makers** planning AI agent deployments
+- **Developers** building production agent systems
+
+## The Author
+
+This reference architecture was authored by **Raphaël MANSUY** in December 2025.
 
 ## Getting Started
 
-Ready to build the future? Head over to our [Getting Started guide](/docs/intro) to learn how to deploy your first agent.
+Ready to explore? Head over to the [Reference Architecture Introduction](/docs/) to understand the eight fundamental needs and seven-layer architecture.
 
 ## Contributing
 
-We welcome contributions from the community! If you're interested in helping us build the Agentic Platform, please check out our [GitHub repository](https://github.com/raphaelmansuy/the_agentic_platform).
-
-## Contact
-
-Have questions or want to collaborate?
-
-- 📧 Email: [contact@agenticplatform.com](mailto:contact@agenticplatform.com)
-- 💬 Discord: [Join our community](https://discord.gg/your-invite-link)
-- 🐦 Twitter: [@agenticplatform](https://twitter.com/agenticplatform)
+We welcome contributions and feedback! If you'd like to improve this reference architecture, please check out our [GitHub repository](https://github.com/raphaelmansuy/the_agentic_platform).
 
 ## License
 
-The Agentic Platform is open source and available under the [MIT License](https://opensource.org/licenses/MIT).
+This reference architecture is open source and available under the [MIT License](https://opensource.org/licenses/MIT).

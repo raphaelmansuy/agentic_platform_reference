@@ -1,0 +1,8 @@
+{
+  "label": "Core Concepts",
+  "position": 2,
+  "link": {
+    "type": "generated-index",
+    "description": "Understand the fundamental concepts behind the Agentic Platform Reference Architecture."
+  }
+}

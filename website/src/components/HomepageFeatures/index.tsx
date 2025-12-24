@@ -11,74 +11,74 @@ type FeatureItem = {
 
 const FeatureList: FeatureItem[] = [
   {
-    title: 'Easy to Customize',
+    title: 'Operational Reliability',
     icon: (
-      <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><path d="m12 3-1.912 5.813a2 2 0 0 1-1.275 1.275L3 12l5.813 1.912a2 2 0 0 1 1.275 1.275L12 21l1.912-5.813a2 2 0 0 1 1.275-1.275L21 12l-5.813-1.912a2 2 0 0 1-1.275-1.275L12 3Z"/><path d="M5 3v4"/><path d="M19 17v4"/><path d="M3 5h4"/><path d="M17 19h4"/></svg>
+      <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10"/><path d="m9 12 2 2 4-4"/></svg>
     ),
     description: (
       <>
-        Built with customization in mind. Update colors, fonts, and layouts
-        to match your brand with simple CSS variables.
+        Durable execution, elastic scaling, and cost-efficient operations.
+        Agents survive failures and scale with demand.
       </>
     ),
   },
   {
-    title: 'SEO Optimized',
+    title: 'Security & Trust',
     icon: (
-      <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><circle cx="11" cy="11" r="8"/><path d="m21 21-4.3-4.3"/></svg>
+      <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><rect width="18" height="11" x="3" y="11" rx="2" ry="2"/><path d="M7 11V7a5 5 0 0 1 10 0v4"/></svg>
     ),
     description: (
       <>
-        Optimized for search engines out of the box. Sitemap generation,
-        meta tags, and structured data included.
+        Architectural security controls that prevent unauthorized actions—
+        even against adversarial prompt manipulation.
       </>
     ),
   },
   {
-    title: 'PWA Ready',
+    title: 'Governance & Compliance',
     icon: (
-      <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><rect width="14" height="20" x="5" y="2" rx="2" ry="2"/><path d="M12 18h.01"/></svg>
+      <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><path d="M16 4h2a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2V6a2 2 0 0 1 2-2h2"/><path d="M15 2H9a1 1 0 0 0-1 1v2a1 1 0 0 0 1 1h6a1 1 0 0 0 1-1V3a1 1 0 0 0-1-1Z"/><path d="m9 14 2 2 4-4"/></svg>
     ),
     description: (
       <>
-        Progressive Web App support for offline capabilities. Install on any
-        device for a native app experience.
+        Policy enforcement, guardrails, and tamper-proof audit logs.
+        Full auditability for regulatory compliance.
       </>
     ),
   },
   {
-    title: 'GitHub Pages Ready',
+    title: 'Data Foundation & Factuality',
     icon: (
-      <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><path d="m8 3 4 8 5-5 5 15H2L8 3z"/></svg>
+      <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><ellipse cx="12" cy="5" rx="9" ry="3"/><path d="M3 5V19A9 3 0 0 0 21 19V5"/><path d="M3 12A9 3 0 0 0 21 12"/></svg>
     ),
     description: (
       <>
-        Deploy to GitHub Pages with a single command. GitHub Actions workflow
-        included for automated deployments.
+        Verified data with quality scoring and provenance tracking.
+        Ground agents in facts, not hallucinations.
       </>
     ),
   },
   {
-    title: 'Dark Mode',
+    title: 'Intelligence & Reasoning',
     icon: (
-      <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><path d="M12 3a6 6 0 0 0 9 9 9 9 0 1 1-9-9Z"/></svg>
+      <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><path d="M12 2a8 8 0 0 0-8 8c0 3.5 2 6 4 7.5V22h8v-4.5c2-1.5 4-4 4-7.5a8 8 0 0 0-8-8Z"/><path d="M12 2v4"/><path d="m8 10 4 4 4-4"/></svg>
     ),
     description: (
       <>
-        Beautiful dark mode that respects user preferences. Easy on the eyes
-        for late-night documentation reading.
+        Model routing, reasoning patterns, and three-tier memory.
+        Apply the right strategy for each task.
       </>
     ),
   },
   {
-    title: 'Fast & Performant',
+    title: 'Integration & Exposition',
     icon: (
-      <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><path d="M13 2L3 14h9l-1 8 10-12h-9l1-8z"/></svg>
+      <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><circle cx="12" cy="12" r="3"/><path d="M12 2v4"/><path d="M12 18v4"/><path d="m4.93 4.93 2.83 2.83"/><path d="m16.24 16.24 2.83 2.83"/><path d="M2 12h4"/><path d="M18 12h4"/><path d="m4.93 19.07 2.83-2.83"/><path d="m16.24 7.76 2.83-2.83"/></svg>
     ),
     description: (
       <>
-        Built on Docusaurus for blazing fast performance. Static site generation
-        with React for the best user experience.
+        MCP for tools, A2A for agent collaboration, and AG-UI for
+        rich user interfaces across channels.
       </>
     ),
   },
@@ -90,10 +90,10 @@ export default function HomepageFeatures(): ReactNode {
       <div className="container">
         <div className={styles.featuresHeader}>
           <Heading as="h2" className={styles.featuresTitle}>
-            Everything you need
+            Eight Fundamental Needs
           </Heading>
           <p className={styles.featuresSubtitle}>
-            A complete template to get your documentation site up and running in minutes.
+            Organizations deploying autonomous AI agents face eight fundamental challenges. The Agentic Platform addresses them systematically.
           </p>
         </div>
         <div className="row">
