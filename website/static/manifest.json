@@ -1,0 +1,40 @@
+{
+  "name": "Docusaurus GitHub Pages Template",
+  "short_name": "DocuTemplate",
+  "description": "A modern Docusaurus template optimized for GitHub Pages with PWA support",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#1a1a2e",
+  "theme_color": "#25c2a0",
+  "orientation": "portrait-primary",
+  "icons": [
+    {
+      "src": "/img/icons/icon-512x512.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "maskable any"
+    },
+    {
+      "src": "/img/logo.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any"
+    }
+  ],
+  "categories": ["documentation", "developer tools"],
+  "screenshots": [],
+  "shortcuts": [
+    {
+      "name": "Documentation",
+      "short_name": "Docs",
+      "description": "View documentation",
+      "url": "/docs/intro"
+    },
+    {
+      "name": "Blog",
+      "short_name": "Blog",
+      "description": "Read blog posts",
+      "url": "/blog"
+    }
+  ]
+}

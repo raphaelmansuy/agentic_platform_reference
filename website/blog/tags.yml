@@ -1,0 +1,42 @@
+# Blog Tags Configuration
+# Define all available blog post tags here
+
+announcement:
+  label: Announcement
+  permalink: /announcement
+  description: Official announcements and updates
+
+getting-started:
+  label: Getting Started
+  permalink: /getting-started
+  description: Resources for new users
+
+tutorial:
+  label: Tutorial
+  permalink: /tutorial
+  description: Step-by-step guides and tutorials
+
+release:
+  label: Release
+  permalink: /release
+  description: Version releases and changelogs
+
+community:
+  label: Community
+  permalink: /community
+  description: Community highlights and contributions
+
+best-practices:
+  label: Best Practices
+  permalink: /best-practices
+  description: Tips and recommendations
+
+docusaurus:
+  label: Docusaurus
+  permalink: /docusaurus
+  description: Docusaurus tag description
+
+hola:
+  label: Hola
+  permalink: /hola
+  description: Hola tag description

@@ -1,0 +1,12 @@
+# robots.txt for Docusaurus GitHub Pages Template
+# https://www.robotstxt.org/robotstxt.html
+
+User-agent: *
+Allow: /
+
+# Sitemaps
+Sitemap: https://your-username.github.io/your-repo-name/sitemap.xml
+
+# Block crawling of specific paths (uncomment if needed)
+# Disallow: /admin/
+# Disallow: /private/

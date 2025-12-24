@@ -1,0 +1,22 @@
+# Blog Authors Configuration
+# Add your team members here
+
+default:
+  name: Documentation Team
+  title: Template Maintainer
+  url: https://github.com/your-username
+  image_url: https://github.com/github.png
+  page: true
+  socials:
+    github: your-username
+    x: yourusername
+
+# Add more authors as needed:
+# janedoe:
+#   name: Jane Doe
+#   title: Developer Advocate
+#   url: https://janedoe.com
+#   image_url: https://github.com/janedoe.png
+#   socials:
+#     x: janedoe
+#     github: janedoe

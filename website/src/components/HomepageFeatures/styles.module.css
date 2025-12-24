@@ -1,0 +1,129 @@
+.features {
+  display: flex;
+  align-items: center;
+  padding: 10rem 0;
+  width: 100%;
+  background-color: transparent;
+  position: relative;
+}
+
+.featuresHeader {
+  text-align: center;
+  margin-bottom: 6rem;
+  max-width: 800px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.featuresTitle {
+  font-size: 4rem;
+  font-weight: 800;
+  margin-bottom: 1.5rem;
+  color: var(--color-text-primary);
+  letter-spacing: -0.05em;
+  line-height: 1;
+}
+
+.featuresSubtitle {
+  font-size: 1.5rem;
+  color: var(--color-text-secondary);
+  line-height: 1.6;
+  font-weight: 400;
+}
+
+.featureCard {
+  background: var(--color-bg-primary);
+  border-radius: 1.5rem;
+  padding: 3rem;
+  height: calc(100% - 2.5rem);
+  box-shadow: var(--shadow-sm);
+  transition: all var(--transition-base);
+  margin-bottom: 2.5rem;
+  border: 1px solid var(--color-border);
+  cursor: pointer;
+  position: relative;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  text-align: left;
+}
+
+.featureCard:hover {
+  transform: translateY(-8px);
+  box-shadow: var(--shadow-xl);
+  border-color: var(--color-accent-light);
+}
+
+[data-theme='dark'] .featureCard {
+  background: var(--color-bg-secondary);
+  border-color: var(--color-border);
+}
+
+[data-theme='dark'] .featureCard:hover {
+  border-color: var(--color-accent);
+  background: var(--color-bg-tertiary);
+}
+
+.featureIcon {
+  margin-bottom: 2rem;
+  transition: all var(--transition-base);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 56px;
+  height: 56px;
+  background-color: var(--color-bg-secondary);
+  border-radius: 1rem;
+  color: var(--ifm-color-primary);
+  border: 1px solid var(--color-border);
+}
+
+[data-theme='dark'] .featureIcon {
+  background-color: var(--color-bg-tertiary);
+  color: #ffffff;
+}
+
+.featureCard:hover .featureIcon {
+  transform: scale(1.1);
+  background-color: var(--ifm-color-primary);
+  color: white;
+  border-color: var(--ifm-color-primary);
+}
+
+[data-theme='dark'] .featureCard:hover .featureIcon {
+  background-color: #ffffff;
+  color: var(--color-bg-primary);
+}
+
+.featureTitle {
+  font-size: 1.75rem;
+  font-weight: 700;
+  margin-bottom: 1.25rem;
+  color: var(--color-text-primary);
+  transition: color var(--transition-base);
+  letter-spacing: -0.03em;
+  line-height: 1.2;
+}
+
+.featureDescription {
+  color: var(--color-text-secondary);
+  line-height: 1.7;
+  margin: 0;
+  font-size: 1.1rem;
+  font-weight: 400;
+}
+
+@media screen and (max-width: 996px) {
+  .features {
+    padding: 3rem 1rem;
+  }
+  
+  .featuresTitle {
+    font-size: 2rem;
+  }
+  
+  .featureCard {
+    padding: 1.5rem;
+  }
+}

@@ -1,0 +1,166 @@
+/**
+ * CSS files with the .module.css suffix will be treated as CSS modules
+ * and scoped locally.
+ */
+
+/* Hero Section */
+.heroBanner {
+  padding: 10rem 0 12rem;
+  text-align: center;
+  position: relative;
+  overflow: hidden;
+  background-color: var(--color-bg-primary);
+  color: var(--color-text-primary);
+}
+
+.heroBanner::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-image: 
+    radial-gradient(circle at 2px 2px, var(--color-border) 1px, transparent 0);
+  background-size: 40px 40px;
+  mask-image: radial-gradient(ellipse at center, black, transparent 80%);
+  opacity: 0.4;
+  pointer-events: none;
+}
+
+[data-theme='dark'] .heroBanner::before {
+  opacity: 0.15;
+  background-image: 
+    radial-gradient(circle at 2px 2px, var(--color-text-tertiary) 1px, transparent 0);
+}
+
+.heroContent {
+  position: relative;
+  z-index: 1;
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 0 2rem;
+  animation: fadeInUp 1s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.heroTitle {
+  font-size: 5.5rem;
+  font-weight: 800;
+  line-height: 1;
+  margin-bottom: 2rem;
+  color: var(--color-text-primary);
+  letter-spacing: -0.05em;
+}
+
+.heroSubtitle {
+  font-size: 1.5rem;
+  margin-bottom: 3.5rem;
+  line-height: 1.6;
+  font-weight: 400;
+  color: var(--color-text-secondary);
+  max-width: 700px;
+  margin-left: auto;
+  margin-right: auto;
+  letter-spacing: -0.01em;
+}
+
+.buttons {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1.5rem;
+  flex-wrap: wrap;
+}
+
+/* CTA Section */
+.cta {
+  padding: 10rem 2rem;
+  background: var(--color-bg-primary);
+  color: var(--color-text-primary);
+  text-align: center;
+  position: relative;
+  overflow: hidden;
+  border-top: 1px solid var(--color-border);
+}
+
+[data-theme='dark'] .cta {
+  background: var(--color-bg-secondary);
+}
+
+.ctaContent {
+  max-width: 800px;
+  margin: 0 auto;
+  position: relative;
+  z-index: 1;
+}
+
+.ctaTitle {
+  font-size: 3.5rem;
+  font-weight: 800;
+  margin-bottom: 1.5rem;
+  color: var(--color-text-primary);
+  letter-spacing: -0.04em;
+}
+
+.ctaSubtitle {
+  font-size: 1.35rem;
+  margin-bottom: 3rem;
+  line-height: 1.6;
+  color: var(--color-text-secondary);
+}
+
+.ctaButtons {
+  display: flex;
+  justify-content: center;
+  gap: 1.5rem;
+  flex-wrap: wrap;
+}
+
+@media screen and (max-width: 996px) {
+  .heroBanner {
+    padding: 6rem 1.5rem;
+  }
+  
+  .heroTitle {
+    font-size: 3.5rem;
+  }
+  
+  .heroSubtitle {
+    font-size: 1.25rem;
+    margin-bottom: 2.5rem;
+  }
+  
+  .buttons {
+    flex-direction: column;
+    width: 100%;
+  }
+  
+  .buttons > a {
+    width: 100%;
+    max-width: 320px;
+  }
+  
+  .cta {
+    padding: 6rem 1.5rem;
+  }
+  
+  .ctaTitle {
+    font-size: 2.5rem;
+  }
+  
+  .ctaSubtitle {
+    font-size: 1.125rem;
+  }
+}
+
+/* Animation */
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
